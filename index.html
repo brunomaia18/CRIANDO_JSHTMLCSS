@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doceria.noanda</title>
+    <style>
+       
+
+
+
+        .dcnoanda{
+            position: relative;
+            left: 28px;
+        }
+
+
+        .logo img{
+            max-width: 100%;
+            max-height: 100%;
+            width: 380px;
+            height: 300px;
+            border-radius:  10%;
+
+        }
+        .txtW  {
+            font: normal 10pt Arial;
+            position: relative;
+            left : 20pX;
+        }
+        .whatsapp{
+            width: 80px;
+            height: 80px;
+            position: relative;
+            left : 20px;
+         }
+        .instagram{
+            width: 80px;
+            height: 80px;
+            position: relative;
+            left:250px;
+            bottom:125px;
+
+        }
+        .txtI{
+            font: normal 10pt Arial;
+            position: relative;
+            left : 22px;
+            position: relative;
+            left: 260px;
+            bottom:128px;
+
+            
+
+        }
+
+        .piximg {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            bottom: 100px;
+            left: 7px;
+    
+
+        }
+        .txtpix{
+            font: normal 11pt Arial;
+            position: relative;
+            bottom: 110px;
+            left: 45px;
+        }
+        .pix{
+            position: relative;
+            bottom: 250px;
+            left: 10px;
+            width: 100px;
+            height: 100px;
+
+        }
+        .container{
+            display: none;
+           
+            align-items: center;
+            background-color: rgb(16, 22, 22);
+            height: 7vh;
+            width: 13%;
+            margin-top: 20px;
+            border-radius: 20%;
+            justify-content: center;
+            position: relative;
+            bottom: 227px;
+            left: 13px;
+           
+        }
+      
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class = 'logo'>
+    <img src="WhatsApp Image 2022-06-29 at 14.43.29.jpeg" alt="">
+     <p class = 'dcnoanda'>Doceria Noanda</p>   
+</div>
+<div class = 'links'>
+    <a href="Wa.me/(85) 9 8545-1823"><img class = "whatsapp" src="whatsapp.png" alt = "whatsapp">
+</a>
+<p class="txtW">WhatsApp</p>
+<a href="https://www.instagram.com/doceria.noanda/"><img class = 'instagram' src="logo-instagram.png" alt = "instagram"></a>
+
+</div>  
+    <p class="txtI">Instagram</p>
+    <input type="text" class="texto" value="(85) 985451823" hidden> 
+    <img  class = 'piximg' src="logo-pix-icone-1024.png" alt="piximg" onclick="copiar()">
+    <p class = 'txtpix'>Pix</p>
+
+    <div class = 'container'>
+           <p class ='hidden '>Copiado</p>
+        </div>
+    
+
+
+    <script>
+        function copiar(){
+            
+            var copiado = document.querySelector('.texto').value;
+            navigator.clipboard.writeText(copiado);
+            aparecerstick()
+
+        }
+        var aparecerstick = function(e){
+            e.target.style.display = 'block'
+
+
+        }
