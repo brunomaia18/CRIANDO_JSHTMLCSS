@@ -65,6 +65,26 @@
             left: 270px;
 
         }
+        .pix{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            bottom:65px;
+            left:40px ;
+
+        }
+        .txtP{
+            color: black;
+            position: relative;
+            bottom: 55px;
+            left: 78px;
+            font: normal 16px Arial;
+
+        }
+        .docerianoanda{
+            position: relative;
+            bottom: 5px;
+        }
         
         
     </style>
@@ -85,8 +105,29 @@
            <img src="logo-instagram.png" class ='Instagram'alt="">
             <p class ='txtI'>Instagram</p>
         </a>
+                            <a href="" onclick="copiar()">
+            <img src="/img/logo-pix-icone-1024.png" class ='pix' alt="">
+            <p class = 'txtP'>Pix</p>
+        </a>
+        <input type="text" class="texto" value="46.974.075/0001-74" hidden>
+       
        
     </div>
+ <script>
+        function copiar(){
+            
+            var copiado = document.querySelector('.texto').value;
+            navigator.clipboard.writeText(copiado);
+            aparecerstick()
+            document.alert('copiado')
+
+        }
+
+
+
+
+
+    </script>
 
 
 
