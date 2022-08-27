@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body{
+
+    background-color: #ededeb;
+}
+
+
+
+
+.logo{
+display: block;
+justify-content: center;
+margin: 0px auto;
+max-width: 100%;
+width: 400px;
+
+}
+.whatsapp{
+    display: block;
+    justify-content: center;
+    position: relative;
+    margin: 0px auto;
+    max-width: 100%;
+    width: 90px;
+    right: 140px;
+    
+   
+
+
+}
+.txtW{
+   position: relative;
+   text-align: center;
+   font: normal 16px Arial;
+   text-decoration-line:underline;
+   color: black;
+   right: 142px;
+   top: 20px;
+   text-transform: uppercase;
+   color: #CAA051;
+
+
+}
+a{
+    text-decoration: none;
+}
+.Instagram{
+    display: block;
+    justify-content: center;
+    position: relative;
+    margin: 0px auto;
+    max-width: 100%;
+    width: 87px;
+    bottom: 120px;
+    left: 80px;
+   
+
+
+
+}
+.txtI{
+
+    color: black;
+    font: normal 16px Arial;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    left: 80px;
+    text-transform: uppercase;
+    color: #CAA051;
+    
+
+    
+
+}
+.pix{
+    display: block;
+    justify-content: center;
+    position: relative;
+    margin: 0px auto;
+    max-width: 100%;
+    width: 100px;
+    right: 140px;
+    bottom: 50px;
+    
+
+}
+.txtP{
+    color: black;
+    position: relative;
+    right: 140px;
+    bottom: 30px;
+   text-align: center;
+    font: normal 16px Arial;
+    text-transform: uppercase;
+    color: #CAA051;
+}
+.docerianoanda{
+    text-align: center;
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Aboreto', cursive;
+    font-size: 30px;
+    color: #CAA051;
+}
+.texto{
+    text-align: center;
+
+}
+
